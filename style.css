@@ -8,6 +8,7 @@
 
 body {
   font-family: "Nunito", sans-serif;
+  font-size: large;
 }
 
 .fluid-container {
@@ -90,6 +91,12 @@ hr {
 .hero .hero-heading .heading-inverted {
   color: var(--gray);
 }
+.hero .header-heading2 {
+  margin: 0px 0px 0px 60px;
+}
+.hero-container {
+  text-align: center;
+}
 .section {
   margin: auto;
   margin-top: 3rem;
@@ -119,4 +126,15 @@ hr {
 .footer a {
   text-decoration: none;
   color: white;
+}
+.project-container {
+  text-align: center;
+  padding: 3rem;
+  margin-top: 3rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+.unordered .list{
+  margin: 3rem;
 }
