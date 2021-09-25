@@ -18,7 +18,7 @@ body {
 
 .container {
   margin: auto;
-  max-width: 600px;
+  max-width: 700px;
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -135,6 +135,6 @@ hr {
   margin: auto;
 }
 
-.unordered .list{
+.unordered .list {
   margin: 3rem;
 }
