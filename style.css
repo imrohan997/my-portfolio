@@ -4,6 +4,7 @@
   --white-color: #ffffff;
   --gray: #6b7280;
   --off-white: #e5e7eb;
+  --white: rgb(255, 255, 255);
 }
 
 body {
@@ -26,7 +27,7 @@ body {
 .primary-link {
   text-decoration: none;
   background-color: var(--primary-color);
-  color: white;
+  color: var(--white);
   padding: 0.5rem 1rem;
   border-radius: 0.7rem;
 }
@@ -68,7 +69,7 @@ hr {
   text-align: right;
 }
 .navigation a {
-  color: white;
+  color: var(--white);
   text-decoration: none;
 }
 .navigation .active {
@@ -110,7 +111,7 @@ hr {
 
 .footer {
   background-color: var(--primary-color);
-  color: white;
+  color: var(--white);
   text-align: center;
   border-top-right-radius: 2rem;
 }
@@ -125,7 +126,7 @@ hr {
 }
 .footer a {
   text-decoration: none;
-  color: white;
+  color: var(--white);
 }
 .project-container {
   text-align: center;
@@ -137,4 +138,13 @@ hr {
 
 .unordered .list {
   margin: 3rem;
+}
+
+.hero .header-inverted {
+  color: var(--gray);
+}
+
+.blog-container {
+  margin-top: 5rem;
+  text-align: center;
 }
